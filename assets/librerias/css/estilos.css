@@ -1,0 +1,137 @@
+.color-p{
+    color: #47bec7;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+.post-thumbnail img{
+    height: 100vh;
+    width: auto;
+}
+
+.color-h1{
+    color: #ddd;
+    font-size: 58px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.color-span{
+    margin-bottom: 40px;
+    color: #848d96;
+    font-size: 24px;
+    line-height: 120%;
+    font-family: 'Lora', serif;
+}
+.color-span p a{
+    color: #848d96;
+}
+.color-span p a:hover{
+    color: #848d96;
+}
+
+body{
+    overflow: hidden;
+}
+
+.t-footer h2{
+    color: #485462;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+    margin-top: 25px;
+}
+body ul{
+    margin: 0;
+    padding: 0;
+}
+body ul li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+body ul li a{
+    color: #848d96;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 132%;
+    letter-spacing: 0;
+}
+
+.estilo{
+    padding: 120px;
+    overflow: auto;
+    height: 100vh;
+}
+
+.titulo{
+    color: #ffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 423px;
+
+    
+}
+.footer{
+    color: #485462;
+    font-size: 14px;
+}
+.footer-links{
+    color: #485462;
+    text-decoration: none;
+}
+.footer-links:hover{
+    color: #485462;
+}
+
+/* header{
+    background-color: rgb(27, 40, 61);
+}
+
+.entry-meta{
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    margin-top: 3%;
+}
+.entry-meta a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+p{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 690px;
+}
+
+
+.p-ex{
+    color: #ffff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.categoria a{
+    text-decoration: none;
+    color: #ffff;
+}
+.categoria{
+    color: #ffff;
+}
+
+.entry-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.entry-content {
+    color: black;
+}
+ */
