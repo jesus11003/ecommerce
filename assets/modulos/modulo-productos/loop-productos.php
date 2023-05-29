@@ -11,7 +11,7 @@ incrustar_hoja_estilos_comision();
 </script>
 
 <!-- #seccion 5 contenidos -->
-<section class="seccion-cinco container mt-5 mb-5">
+<section class="">
 
     <?php $active = true;
             $temp = $wp_query;
@@ -26,6 +26,7 @@ incrustar_hoja_estilos_comision();
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
        <div class="card col-12 col-md-4">
        <h1><?php echo get_the_title();?></h1>
        <?php ecommerce_post_tumbnail();?>

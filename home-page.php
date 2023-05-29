@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * Template Name: Inicio ecommerce
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -31,6 +31,7 @@ get_header();
 		endwhile; // End of the loop.
 		?>
 
+		<?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-productos.php'; ?>
 	</main><!-- #main -->
 
 <?php
