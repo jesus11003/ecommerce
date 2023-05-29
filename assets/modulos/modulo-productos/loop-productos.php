@@ -1,7 +1,7 @@
 <script>
 function incrustar_hoja_estilos_comision() {
     var hoja_estilos_url =
-        '<?php echo get_site_url() . '/wp-content/themes/prisa-chile/assets/modulos/modulo-contenidos/modulo-contenidos.css';?>';
+        '<?php echo get_site_url() . '/wp-content/themes/prisa-chile/assets/modulos/modulo-contenidos/modulo-productos.css';?>';
     var hoja_estilos = document.createElement('link');
     hoja_estilos.rel = 'stylesheet';
     hoja_estilos.href = hoja_estilos_url;
